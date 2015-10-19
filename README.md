@@ -17,6 +17,17 @@ Generate new JavaScript project structure with:
 
 You can check out an example project generated in **example.zip**.
 
+# No Grunt
+
+You might wonder why on earth this generator doesn't use grunt.
+The answer is to keep it as simple as possible, and without requiring any additional configuration / installs.
+
+This is not the best approach and it is recommended to switch to grunt once the project grows.
+
+Also, take a look at this fine javascript template: https://github.com/jeremyckahn/lib-tmpl
+
+It requires more work to setup, but its more suitable for large npm libraries.
+
 # How to create a new project
 
 To create a new project from this template, run the **create_project.py** script and answer a few questions.
