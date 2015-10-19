@@ -33,7 +33,7 @@ date = datetime.datetime.now().ctime()
 shutil.copytree("template", project_name)
 
 # replace all data
-valid_extensions = ["js", "md", "txt", "py", "json"]
+valid_extensions = ["js", "md", "txt", "py", "json", "html"]
 for root, subFolders, files in os.walk(project_name):
 	for file in files:
 		if file.lower().split(".")[-1] in valid_extensions:

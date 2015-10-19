@@ -37,3 +37,4 @@ with open("curr_version.txt", "w") as outfile:
 	outfile.write(new_version)
 	
 print "Done!"
+print "(Don't forget to update NPM & changelog in README.md!)"
