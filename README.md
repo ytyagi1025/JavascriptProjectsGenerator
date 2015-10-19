@@ -1,8 +1,18 @@
-# What is this?
+# What is it?
 
-This project is an empty template for new javascript projects.
-
+This script generate empty templates for new javascript projects.
 You can use it to quickly generate the basic files and directory structure for any javascript lib or project. 
+
+# Features
+
+Generate new JavaScript project structure with:
+
+- Quick build & minify script
+- Make-version script
+- Built-in z-lib license
+- README.md template file
+- Required files to build an npm package out of it
+- Basic source files with project's namespace, version and license
 
 # How to create a new project
 
