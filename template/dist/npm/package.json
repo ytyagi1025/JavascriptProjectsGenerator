@@ -1,0 +1,21 @@
+{
+  "name": "<ProjectName>",
+  "version": "1.0.0",
+  "description": "<TagLine>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<author>/<projectname>.git"
+  },
+  "keywords": [
+  ],
+  "author": "<Author>",
+  "license": "Zlib",
+  "bugs": {
+    "url": "https://github.com/<author>/<projectname>/issues"
+  },
+  "homepage": "https://github.com/<author>/<projectname>#readme"
+}
