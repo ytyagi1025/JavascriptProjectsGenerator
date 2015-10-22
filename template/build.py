@@ -1,3 +1,8 @@
+"""
+quick build script, part of the Js project generator.
+https://github.com/RonenNess/JavascriptProjectsGenerator
+"""
+
 import os
 import sys
 
@@ -5,8 +10,8 @@ import sys
 files = open("files_to_build.txt", "r").read().split("\n")
 
 # get current version
-curr_version = str(open("curr_version.txt").read()).strip()
-	
+with open("curr_version.txt", "r") as infile:
+	curr_version = str(infile.readlines()[-1]).strip()	
 print "Build version: %s..." % curr_version
 	
 # combine all code into a single file

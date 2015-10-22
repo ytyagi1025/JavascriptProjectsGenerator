@@ -1,3 +1,2 @@
-license.js
 main.js
 package/npm.js

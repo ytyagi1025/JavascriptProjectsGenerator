@@ -1,19 +1,31 @@
+** NOTE! This readme template is just a skeleton for your project readme file.
+
+Fill in all the TBDS and update the TOC if you add new sections.
+
+Created by: https://github.com/RonenNess/JavascriptProjectsGenerator
+
 # <ProjectName> - <TagLine>
 
-<TBD>
+TBD_FILL_THIS_SECTION
 
 ## Table of Contents
 
 - [What is it?](#what-is-it)
+- [Key Features](#key-features)
+- [How to use](#how-to-use)
+- [Quick example](#quick-example)
+- [How to build](#how-to-build)
+- [Change log](#change-log)
+- [License](#license)
 
 ## What is it?
 
-<TBD>
+TBD_FILL_THIS_SECTION
 
 ## Key Features
 The following are the key features of <ProjectName>:
 
-<TBD>
+TBD_FILL_THIS_SECTION
 
 
 ## How to use
@@ -35,11 +47,11 @@ For un-minified version.
 
 ### Quick example
 
-<TBD>
+TBD_FILL_THIS_SECTION
 
 ### <ProjectName> Tutorial
 
-<TBD>
+TBD_FILL_THIS_SECTION
 
 ## How to build
 
@@ -49,7 +61,7 @@ Note: only the javascript files listed in *files_to_build.txt* will be compiled.
 To make a new version, run the script **make_version.py**.
 This will build a new distribution version based on the last dev build.
 
-## Changelog
+## Change log
 
 No newer versions yet.
 	

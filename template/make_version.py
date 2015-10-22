@@ -1,10 +1,15 @@
+"""
+quick make-version script, part of the Js project generator.
+https://github.com/RonenNess/JavascriptProjectsGenerator
+"""
+
 import os
 import json
 import shutil
 
 # get current version
 with open("curr_version.txt", "r") as infile:
-	curr_version = str(infile.read()).strip()
+	curr_version = str(infile.readlines()[-1]).strip()
 print "Make version: %s..." % curr_version
 
 # move previous version to "older"
@@ -33,8 +38,8 @@ with open("dist/npm/package.json", "w") as outfile:
 new_version = ""
 while len(new_version) == 0:
 	new_version = raw_input("Previous version was %s, new version will be: " % curr_version)
-with open("curr_version.txt", "w") as outfile:
-	outfile.write(new_version)
+with open("curr_version.txt", 'a') as outfile:
+	outfile.write('\n' + new_version)
 	
 print "Done!"
 print "(Don't forget to update NPM & changelog in README.md!)"
