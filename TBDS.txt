@@ -1,5 +1,0 @@
-Things to add:
-
-- add grunt basic files as optional.
-- when upgrading version, don't replace the curr_version.txt content, but add another line in the end. this will keep track of all the versions history.
-- put all the build metadata files (files_list, curr_version, minifier, etc) in a folder (build_utils).
