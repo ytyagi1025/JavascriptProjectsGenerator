@@ -1,6 +1,6 @@
 /*
 * <ProjectName> - <TagLine>.
-* Author: <Author>, <Data>
+* Author: <Author>, <Date>
 */
 
 
