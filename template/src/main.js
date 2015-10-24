@@ -1,5 +1,8 @@
 /*
 * <ProjectName> - <TagLine>.
+* This is the first file to create the lib namespace and set version.
+*
+* (Project made with https://github.com/RonenNess/JavascriptProjectsGenerator)
 * Author: <Author>, <Date>
 */
 

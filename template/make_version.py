@@ -37,7 +37,7 @@ with open("dist/npm/package.json", "w") as outfile:
 # change version
 new_version = ""
 while len(new_version) == 0:
-	new_version = raw_input("Previous version was %s, new version will be: " % curr_version)
+	new_version = raw_input("Current version is %s, Please provide next version name: " % curr_version)
 with open("curr_version.txt", 'a') as outfile:
 	outfile.write('\n' + new_version)
 	
