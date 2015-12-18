@@ -61,6 +61,11 @@ Note: only the javascript files listed in *files_to_build.txt* will be compiled.
 To make a new version, run the script **make_version.py**.
 This will build a new distribution version based on the last dev build.
 
+### build_on_change.py
+
+There's an additional build script, called *build_on_change.py*.
+This script will listen to all changes in source files and will build on every change. It is useful for quick development.
+
 ## Change log
 
 No newer versions yet.
