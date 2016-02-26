@@ -17,6 +17,8 @@ print "Build version: %s..." % curr_version
 # combine all code into a single file
 full_code = ""
 for file in files:
+    if file.startswith("#") or len(file) <= 0:
+        continue
     with open(os.path.join("src", file), 'r') as src:
         full_code += "// FILE: " + file + "\r\n\r\n"
         full_code += src.read() + "\r\n\r\n"
