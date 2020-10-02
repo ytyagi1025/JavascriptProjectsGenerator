@@ -72,6 +72,7 @@ To make a new version simply run the script **make_version.py**.
 
 This projects generator is made by Ronen Ness.
 Feel free to use / modify it for any purpose (commercial & educational).
+* These files and scripts are not intended for malicious purposes
 
 To contact me:
 RonenNess@gmail.com
